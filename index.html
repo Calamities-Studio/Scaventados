@@ -2,15 +2,16 @@
 <html>
 
 <head>
+    <link rel="stylesheet" href="css/main.css" />
     <script src="https://pixijs.download/release/pixi.js"></script>
+    <title>Scaventados</title>
 </head>
 
 <body>
-    <h1>Scaventados</h1>
-
-
     <script>
-        let app = new PIXI.Application({ width: 1240, height: 700 });
+        let app = new PIXI.Application({
+            resizeTo: window
+        });
 
         document.body.appendChild(app.view);
 
