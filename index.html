@@ -4,6 +4,7 @@
 <head>
     <link rel="stylesheet" href="css/main.css" />
     <script src="https://pixijs.download/release/pixi.js"></script>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <title>Scaventados</title>
 </head>
 
@@ -31,6 +32,7 @@
             sprite.x = 100.0 + Math.cos(elapsed / 50.0) * 100.0;
         });
 
+        console.log(window.Telegram.WebApp)
     </script>
 
 </body>
